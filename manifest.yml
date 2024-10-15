@@ -15,7 +15,7 @@ resources:
 app:
   runtime:
     name: nodejs20.x
-  id: ari:cloud:ecosystem::app/10b87a23-b4a1-43b8-9826-869e54b990a1
+  id: 
 permissions:
   scopes:
     - read:confluence-user
