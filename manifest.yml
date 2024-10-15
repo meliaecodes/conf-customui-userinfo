@@ -1,0 +1,22 @@
+modules:
+  confluence:spacePage:
+    - key: conf-space-page-customui-hello-world
+      resource: main
+      resolver:
+        function: resolver
+      title: conf-space-page-customui
+      route: hello-world
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+app:
+  runtime:
+    name: nodejs20.x
+  id: ari:cloud:ecosystem::app/10b87a23-b4a1-43b8-9826-869e54b990a1
+permissions:
+  scopes:
+    - read:confluence-user
+    - read:user:confluence
