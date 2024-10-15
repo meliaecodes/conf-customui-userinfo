@@ -1,6 +1,6 @@
 # Forge Hello World
 
-This project contains a Forge app written in Javascript that displays `Hello World!` in a Confluence space page. 
+This project contains a Forge app written in Javascript that displays information about the current user in a Confluence space page. 
 
 See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
 
@@ -9,6 +9,7 @@ See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/pl
 See [Set up Forge](https://developer.atlassian.com/platform/forge/set-up-forge/) for instructions to get set up.
 
 ## Quick start
+
 - Install top-level dependencies:
 ```
 npm install
@@ -19,11 +20,14 @@ npm install
 npm install
 ```
 
-- Modify your app by editing the files in `static/hello-world/src/`.
-
 - Build your app (inside of the `static/hello-world` directory):
 ```
 npm run build
+```
+
+- Register the app by running:
+```
+forge register
 ```
 
 - Deploy your app by running:
