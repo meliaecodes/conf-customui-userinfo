@@ -1,5 +1,7 @@
 # Forge Hello World
 
+![Conf Space Page App](conf-space-page.png)
+
 This project contains a Forge app written in Javascript that displays information about the current user in a Confluence space page. 
 
 See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
